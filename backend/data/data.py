@@ -87,10 +87,12 @@ If you want to use the AI feature, make sure to get your API key from Cohere, an
 Afterwards:
 
 1. Open a terminal and get to the **backend** folder.
-2. Execute: **uvicorn main:app --host 0.0.0.0 --port 8000 --reload**
-3. Open another terminal and get to the **frontend** folder
-4. Execute **npm run dev**
-5. Open **localhost:3000** or what is directed by the npm run dev in a browser
+2. Install all backend dependencies by executing this: **pip install -r requirements.txt**
+3. Execute: **uvicorn main:app --host 0.0.0.0 --port 8000 --reload**
+4. Open another terminal and get to the **frontend** folder
+5. Install all frontend dependencies by executing this: **npm run dev**
+6. Execute **npm run dev**
+7. Open **localhost:3000** or what is directed by the npm run dev in a browser
 
 ## DESIGN CHOICES
 
